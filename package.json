@@ -1,0 +1,23 @@
+{
+  "name": "bonusCB",
+  "version": "1.0.0",
+  "description": "Bonus question,  compare two arrays and output values that are on both.",
+  "main": "bonus.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonMisner/bonusCB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonMisner/bonusCB/issues"
+  },
+  "homepage": "https://github.com/JonMisner/bonusCB#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}

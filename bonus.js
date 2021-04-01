@@ -1,18 +1,21 @@
-
-
-const arrayCompare = () => {
-
+// test arrays (if using node)
 const array_one = ["apple", "dog", "cat", "food", "kite", "elephant", "lunch", "book", "laptop"];
 const array_two = ["dog", "goose", "kite", "meal", "laptop"]
 
-for (i = 0; i < array_one.length; i++) {
-   for (j = 0; j <array_two.length; j++) {
-      if (array_one[i]===array_two[j]) {
-         console.log(array_one[i]);
+// loops through each item in Arr2, while looping through arr1. if they match it console logs the item.
+const arrayCompare = (arr1, arr2) => {
+
+for (i = 0; i < arr1.length; i++) {
+   for (j = 0; j <arr2.length; j++) {
+      if (arr1[i]===arr2[j]) {
+         console.log(arr1[i]);
       }
    }
 }
 }
+// call
+arrayCompare(array_one, array_two);
 
-arrayCompare();
+// export
+module.exports = arrayCompare;
 
